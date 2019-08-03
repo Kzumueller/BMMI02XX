@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{%  block body %}
+<div class="translations">
+    <div class="translations__note">
+        Enter in syllables - If "c" is pronounced like "k", change "c" to "k".
+    </div>
+
+    <div class="translations__textSection">
+        <div class="translations__label">Latin / German</div>
+        <textarea id="translations__input" class="translations__textArea"></textarea>
+    </div>
+
+    <div class="translations__textSection">
+        <div class="translations__label">Votox</div>
+        <textarea id="translations__output" class="translations__textArea" readonly></textarea>
+    </div>
+
+    <div class="translations__buttonBar">
+        <button type="button" class="button translations__button" data-input-language="de">German to VOTOX</button>
+        <button type="button" class="button translations__button" data-input-language="la">Latin to VOTOX</button>
+        <button type="button" class="button translations__button--clipboard" data-input-language="la">Copy results to clipboard</button>
+    </div>
+</div>
+
+{% endblock %}

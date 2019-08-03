@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: @colour_background;
+
+    font: 400 16px/1.2 Verdana, sans-serif;
+
+    div, header, span {
+        box-sizing: border-box;
+    }
+}
+
+@import 'globals/colours';
+@import 'globals/lengths';
+@import 'globals/mixins';
+
+@import "blocks/button";
+@import "blocks/header";
+@import "blocks/translations";
+
