@@ -24,7 +24,7 @@ final class VotoxController extends AbstractController {
      *
      * @Route("/translations")
      */
-    public function translations(Request $request) {
+    public function translationForm(Request $request) {
         return $this->render('Votox/translations.html.twig');
     }
 
@@ -38,7 +38,7 @@ final class VotoxController extends AbstractController {
      *
      * @Route("/translate")
      */
-    public function translateService(Request $request, IVotoxTranslator $translator) {
+    public function translationService(Request $request, IVotoxTranslator $translator) {
         if(Request::METHOD_POST === $request->getMethod()) {
             $text = $request->request->get('text', '');
             $language = $request->request->get('language', '');
