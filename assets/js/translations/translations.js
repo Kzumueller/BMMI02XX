@@ -1,6 +1,6 @@
 import requestWorker from 'asynchrolicious';
 
-const translations = ((input, output)=> {
+window.translations = ((input, output)=> {
 
     /**
      * transmits text to the backend translation service and returns the results
@@ -25,6 +25,7 @@ const translations = ((input, output)=> {
      * @param {MouseEvent} event
      */
     const translateListener = async event => {
+        /** @var button {Element} */
         const button = event.currentTarget;
         output.value = JSON.parse(await translate(input.value, button.dataset.inputLanguage)).results;
     };
@@ -46,15 +47,17 @@ const translations = ((input, output)=> {
     const run = () => {
         input = document.getElementById('translations__input');
         output = document.getElementById('translations__output');
-        const copyButton = document.querySelector('.translations__button--clipboard');
 
-        if([input, output, copyButton].includes(null)) return;
+        if([input, output].includes(null)) return;
 
         document.querySelectorAll('.translations__button').forEach(
             button => button.addEventListener('click', translateListener)
         );
 
-        copyButton.addEventListener('click', copyToClipboardListener)
+        const copyButton = document.querySelector('.translations__button--clipboard');
+
+        if (null !== copyButton)
+            copyButton.addEventListener('click', copyToClipboardListener)
     };
 
     return {
