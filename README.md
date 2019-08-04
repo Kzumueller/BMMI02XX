@@ -55,6 +55,8 @@ the potentially heavy payloads involved in translating texts without the need to
 The following images show the application being used to translate fairly 
 well-known texts in everyone's favourite languages: German and Latin
 
+(You might want to zoom in a bit to read the text.)
+
 ### German
 ![if this image can't be displayed, check out the /screenshots directory](./screenshots/OdeToJoy.png "Goethe's Ode to Joy")
 
