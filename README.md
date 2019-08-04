@@ -49,4 +49,20 @@ and hit the button matching the language of your text.
 You might have noticed that upon clicking a button, the page is not reloaded but the translation still magically appears out of thin air.
 This is due to the mysterious power of Asynchronous JavaScript and XML - better known as AJAX and sometimes referred to as "that thing that made our projects to complicated 
 that after years of programming I actually have to learn something new and I don't like it" - which is used to transport
-the potentially heavy payloads involved in translating texts without the need to refresh the whole page every time a translation is requested. 
+the potentially heavy payloads involved in translating texts without the need to refresh the whole page every time a translation is requested.
+
+## Sample output
+The following images show the application being used to translate fairly 
+well-known texts in everyone's favourite languages: German and Latin
+
+### German
+![if this image can't be displayed, check out the /screenshots directory](./screenshots/OdeToJoy.png "Goethe's Ode to Joy")
+
+
+![if this image can't be displayed, check out the /screenshots directory](./screenshots/Art1.png "Article 1 of Germany's Constitution")
+
+### Latin
+![if this image can't be displayed, check out the /screenshots directory](./screenshots/PaterNoster.png "The prayer that led Europe from the thriving societies of Antiquity to the Dark Ages")  
+
+  
+![if this image can't be displayed, check out the /screenshots directory](./screenshots/PaterNoster.png "From the original soundtrack of Final Fantasy 7, Theme song dedicated to Sephiroth who is the main antagonist and just plain awesome")
