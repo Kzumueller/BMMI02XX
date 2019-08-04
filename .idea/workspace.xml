@@ -19,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="518">
-                <caret line="62" column="172" selection-start-line="62" selection-start-column="163" selection-end-line="62" selection-end-column="172" />
+              <first_editor relative-caret-position="416">
+                <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
               </first_editor>
               <second_editor />
             </state>
@@ -327,16 +327,15 @@
       <option name="presentableId" value="Default" />
       <updated>1564830615322</updated>
       <workItem from="1564830617042" duration="32175000" />
-      <workItem from="1564903017303" duration="5350000" />
+      <workItem from="1564903017303" duration="5629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37525000" />
+    <option name="totallyTimeSpent" value="37804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -640,8 +639,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="518">
-            <caret line="62" column="172" selection-start-line="62" selection-start-column="163" selection-end-line="62" selection-end-column="172" />
+          <first_editor relative-caret-position="416">
+            <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
           </first_editor>
           <second_editor />
         </state>

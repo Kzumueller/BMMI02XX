@@ -65,4 +65,4 @@ well-known texts in everyone's favourite languages: German and Latin
 ![if this image can't be displayed, check out the /screenshots directory](./screenshots/PaterNoster.png "The prayer that led Europe from the thriving societies of Antiquity to the Dark Ages")  
 
   
-![if this image can't be displayed, check out the /screenshots directory](./screenshots/PaterNoster.png "From the original soundtrack of Final Fantasy 7, Theme song dedicated to Sephiroth who is the main antagonist and just plain awesome")
+![if this image can't be displayed, check out the /screenshots directory](./screenshots/SephirothsTheme.png "From the original soundtrack of Final Fantasy 7, Theme song dedicated to Sephiroth who is the main antagonist and just plain awesome")
